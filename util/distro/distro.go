@@ -20,10 +20,10 @@ type DistributionResource struct {
 }
 
 var defaultDistroRes = DistributionResource{
-	TiDB:    "TiDB",
-	TiKV:    "TiKV",
-	PD:      "PD",
-	TiFlash: "TiFlash",
+	TiDB:    "UbiSQL",
+	TiKV:    "UbiStore",
+	PD:      "UbiAnalysis",
+	TiFlash: "UbiMeta",
 }
 
 var globalDistroRes atomic.Value
